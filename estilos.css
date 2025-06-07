@@ -1,0 +1,192 @@
+:root {
+  --fondo: #181c1f;
+  --primario: #e9c46a;
+  --secundario: #264653;
+  --borde: #2a9d8f;
+  --texto: #f4f4f4;
+  --gris: #22272a;
+}
+
+body {
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: var(--secundario);
+  padding: 1.2rem 0 0.8rem 0;
+  text-align: center;
+  box-shadow: 0 2px 8px #0002;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: var(--primario);
+  letter-spacing: 2px;
+}
+
+.edades-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.edades-nav a {
+  text-decoration: none;
+  color: var(--texto);
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  transition: background 0.2s, color 0.2s;
+  font-size: 1rem;
+}
+
+.edades-nav a.active,
+.edades-nav a:hover {
+  background: var(--borde);
+  color: var(--primario);
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem 0.5rem;
+}
+
+.naciones-section h2 {
+  text-align: center;
+  color: var(--primario);
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.naciones-dos-columnas {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  background: var(--gris);
+  border-radius: 14px;
+  padding: 1.2rem 2rem;
+  box-shadow: 0 2px 8px #0003;
+}
+
+.naciones-dos-columnas ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.naciones-dos-columnas li {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  padding: 0.4rem 1.2rem;
+  border-radius: 8px;
+  transition: background 0.15s, color 0.15s;
+  cursor: default;
+}
+
+.naciones-dos-columnas li:hover {
+  background: var(--borde);
+  color: var(--texto);
+}
+
+/* Colores personalizados por nación */
+.roma {
+  color: rgba(217, 41, 10, 0.827);
+}
+.egipto {
+  color: rgb(240, 151, 8);
+}
+.grecia {
+  color: #5795c1;
+}
+.persia {
+  color: rgb(104, 105, 105);
+}
+.china {
+  color: rgb(148, 251, 2);
+}
+.mongolia {
+  color: rgb(195, 140, 13);
+}
+.alemania {
+  color: rgb(9, 93, 41);
+}
+.turquia {
+  color: rgb(22, 188, 210);
+}
+.francia {
+  color: rgb(11, 104, 175);
+}
+.inglaterra {
+  color: rgb(209, 76, 10);
+}
+.españa {
+  color: rgb(203, 174, 100);
+}
+.rusia {
+  color: rgba(140, 14, 115, 0.827);
+}
+.japon {
+  color: rgba(235, 228, 30, 0.827);
+}
+.corea {
+  color: rgba(232, 54, 193, 0.827);
+}
+.mayas {
+  color: rgba(234, 109, 71, 0.827);
+}
+.incas {
+  color: rgba(57, 180, 59, 0.827);
+}
+.india {
+  color: rgba(244, 167, 33, 0.827);
+}
+.nubios {
+  color: rgba(215, 233, 15, 0.827);
+}
+.bantues {
+  color: rgba(253, 155, 26, 0.827);
+}
+.holanda {
+  color: rgba(203, 66, 215, 0.827);
+}
+.americanos {
+  color: rgba(12, 82, 234, 0.827);
+}
+
+footer {
+  background: var(--secundario);
+  color: #bbb;
+  text-align: center;
+  padding: 0.7rem 0;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .naciones-dos-columnas {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+  header h1 {
+    font-size: 1.3rem;
+  }
+  .naciones-section h2 {
+    font-size: 1.1rem;
+  }
+}
