@@ -1,0 +1,21 @@
+Para subir tu página web a GitHub y publicarla con GitHub Pages, sigue estos pasos:
+
+1. Crea un repositorio en GitHub
+Ve a github.com y entra con tu cuenta.
+Haz clic en New repository.
+Ponle un nombre (por ejemplo, naciones-ron).
+Hazlo público y crea el repositorio.
+2. Sube tus archivos desde tu PC
+Abre una terminal en la carpeta de tu proyecto y ejecuta estos comandos:
+
+Reemplaza TU_USUARIO por tu nombre de usuario de GitHub.
+
+3. Activa GitHub Pages
+Ve al repositorio en GitHub.
+Haz clic en Settings > Pages.
+En "Source", selecciona la rama main y la carpeta / (root).
+Guarda los cambios.
+4. ¡Listo!
+GitHub te dará una URL como
+https://TU_USUARIO.github.io/naciones-ron/
+donde estará tu página web.
