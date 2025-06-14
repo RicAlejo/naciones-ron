@@ -112,23 +112,24 @@ main {
 
 /* Colores personalizados por nación */
 .china      { color: #43f933; }
-.turquia    { color: #e7421d; }
+.turquia    { color: #34ebeb; }
 .españa     { color: #ffd166; }
-.francia    { color: #092578; }
-.inglaterra { color: #a82e18; }
+.francia    { color: #29469e; }
+.inglaterra { color: #9f4535; }
 .rusia      { color: #7209b7; }
 .india      { color: #c7920c; }
 .japon      { color: #f2d43f; }
 .persia     { color: #a8dadc; }
-.roma       { color: #e63946; }
-.alemania   { color: #083d23; }
+.roma       { color: #8b131d; }
+.alemania   { color: #0c5732; }
 .holanda    { color: #b5838d; }
-.americanos { color: #2828d2; }
+.americanos { color: #0808a3; }
 .corea      { color: #eb55bb; }
 .mayas      { color: #5fbd7b; }
 .grecia      { color: #3e85b4; }
 .nubios      { color: #f3fb06; }
 .egipto      { color: #7c600b; }
+.mongolia     { color: #573e05; }
 
 /* Footer */
 footer {
