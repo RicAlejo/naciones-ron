@@ -8,9 +8,7 @@
 }
 
 /* Reset general */
-body,
-header,
-nav {
+body, header, nav {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -43,10 +41,10 @@ header h1 {
 .edades-nav {
   display: flex;
   justify-content: center;
-  gap: 1rem;
   list-style: none;
   padding: 0;
   margin: 1rem 0 0 0;
+  gap: 1rem;
 }
 
 .edades-nav a {
@@ -113,48 +111,20 @@ main {
 }
 
 /* Colores personalizados por nación */
-.china {
-  color: #f4a261;
-}
-.turquia {
-  color: #06d6a0;
-}
-.españa {
-  color: #ffd166;
-}
-.francia {
-  color: #457b9d;
-}
-.inglaterra {
-  color: #2a9d8f;
-}
-.rusia {
-  color: #7209b7;
-}
-.india {
-  color: #e9c46a;
-}
-.japon {
-  color: #ef476f;
-}
-.persia {
-  color: #a8dadc;
-}
-.roma {
-  color: #e63946;
-}
-.alemania {
-  color: #118ab2;
-}
-.holanda {
-  color: #b5838d;
-}
-.americanos {
-  color: #ffb703;
-}
-.corea {
-  color: #3a86ff;
-}
+.china      { color: #f4a261; }
+.turquia    { color: #06d6a0; }
+.españa     { color: #ffd166; }
+.francia    { color: #457b9d; }
+.inglaterra { color: #2a9d8f; }
+.rusia      { color: #7209b7; }
+.india      { color: #e9c46a; }
+.japon      { color: #ef476f; }
+.persia     { color: #a8dadc; }
+.roma       { color: #e63946; }
+.alemania   { color: #118ab2; }
+.holanda    { color: #b5838d; }
+.americanos { color: #ffb703; }
+.corea      { color: #3a86ff; }
 
 /* Footer */
 footer {
@@ -178,26 +148,24 @@ footer {
     box-sizing: border-box;
     padding: 0.5rem 0;
     margin: 0;
-    scrollbar-width: thin; /* Firefox */
+    scrollbar-width: thin;
     background: var(--secundario);
     justify-content: flex-start;
+    gap: 0;
   }
   .edades-nav li {
     flex: 0 0 auto;
     margin: 0 0.3rem;
   }
+  .edades-nav li:first-child {
+    margin-left: 0.5rem;
+  }
   .edades-nav a {
     white-space: nowrap;
   }
-  nav,
-  header {
+  nav, header, body {
     padding: 0;
     margin: 0;
-  }
-  body {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
   }
   .naciones-dos-columnas {
     flex-direction: column;
@@ -211,4 +179,3 @@ footer {
   .naciones-section h2 {
     font-size: 1.1rem;
   }
-}
